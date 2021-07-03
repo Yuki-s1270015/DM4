@@ -14,7 +14,6 @@ int main(){
   printf("Hello, %s!\n",str);
   
   //サイコロを振るパート
-  
   printf("Rolling the dice...\n");
   
   for(i=0;i<2;i++){
