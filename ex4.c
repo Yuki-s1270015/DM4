@@ -6,6 +6,7 @@ int main(){
   int i,num,total=0;
   
   srand((unsigned int)time(NULL));
+  
   printf("Rolling the dice...\n");
   
   for(i=0;i<2;i++){
