@@ -13,7 +13,7 @@ int main(){
   scanf("%s", str);
   printf("Hello, %s!\n",str);
   
-  //サイコロを振る
+  //サイコロを振るパート
   
   printf("Rolling the dice...\n");
   
