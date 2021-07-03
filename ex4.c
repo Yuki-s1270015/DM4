@@ -7,6 +7,13 @@ int main(){
   
   srand((unsigned int)time(NULL));
   
+  //名前を聞くパート
+  char str[8];
+  printf("What is your name?");
+  scanf("%s", str);
+  printf("Hello, %s!\n",str);
+  
+  //サイコロを振るパート
   printf("Rolling the dice...\n");
   
   for(i=0;i<2;i++){
