@@ -17,8 +17,8 @@ int main(){
   printf("Total value: %d\n",total);
 
   //勝敗を決めるパート
-  if(total>7) printf("%s won!\n",str);
-  else printf("%s lost.\n",str);
+  if(total>7) printf("You won!\n");
+  else printf("You lost.\n");
   
   return 0;
 }
